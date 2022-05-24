@@ -1,0 +1,27 @@
+{
+  "name": "pcat",
+  "version": "1.0.0",
+  "description": "\"# PCAT\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deadburn/PCAT.git"
+  },
+  "keywords": [
+    "photo",
+    "app",
+    "camera"
+  ],
+  "author": "Cihan Alıcı",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deadburn/PCAT/issues"
+  },
+  "homepage": "https://github.com/Deadburn/PCAT#readme",
+  "devDependencies": {
+    "prettier": "2.6.2"
+  }
+}
