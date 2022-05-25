@@ -29,6 +29,16 @@ app.get('/', async (req, res) => {
   });
 });
 
+app.get('/photos/:id', async (req, res) => {
+  //console.log(req.params.id)
+ // res.render('photo');
+
+ const photo = await Photo.findById(req.params.id)
+ res.render('photo', {
+   photo
+ })
+});
+
 app.get('/about', (req, res) => {
   //res.sendFile(path.resolve(__dirname, 'temp/index.html'))
   res.render('about');
