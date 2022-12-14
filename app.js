@@ -9,7 +9,7 @@ const pageController = require('./controllers/pageController')
 const app = express();
 
 //connect to DB
-mongoose.connect('mongodb+srv://cihan:passwd00.@cluster0.uceqxzg.mongodb.net/pcat-db?retryWrites=true&w=majority', {
+mongoose.connect(process.env.MONGO_STR, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(() => {
